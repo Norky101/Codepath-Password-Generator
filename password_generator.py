@@ -1,3 +1,5 @@
+# GOAL: Output an 8 digit code that contains 4 letters and 4 digits.
+
 import random
 import string
 
@@ -11,3 +13,4 @@ let = ( ''.join(random.choice(letters) for i in range(4)) )
 num = (nums)
 
 print (let,num)
+
